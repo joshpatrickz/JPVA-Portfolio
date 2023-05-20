@@ -4,7 +4,7 @@ import JPVAHardware from '../assets/jpva-hardware.png'
 
 const Hero = () => {
   return (
-    <div name="home" className="w-full h-auto mx-auto text-[#404040]">
+    <div name="home" className="w-full h-auto mx-auto text-[#404040] bg-slate-400">
       <div className="max-w-[800px] mt-16 h-auto mx-auto px-7 text-center flex flex-col justify-center">
         <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold md:py-6">
           Hi. I'm Josh.
