@@ -21,7 +21,7 @@ const Skill = () => {
           </div>
           <div className="mb-10">
             <h2 className="text-[#E1C340] font-bold">
-              My Information Technology Skill:
+              My Information Technology Skill:12
             </h2>
             <p>Computer Hardware Troubleshooting</p>
             <p>Computer Software Troubleshooting</p>
