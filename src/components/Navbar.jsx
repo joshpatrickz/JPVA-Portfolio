@@ -26,7 +26,7 @@ const Navbar = () => {
       </ul>
 
       <div className="w-[160px] text-[16px] text-white border rounded-lg hover:text-black hover:bg-[#A4E8E0] bg-[#4CD7D0] py-2 px-2 cursor-pointer">
-        <a href={CV} download="resumeCV">
+        <a href={CV} download="Aquino, Joshua Patrick - CV">
           <button>Download CV</button>
         </a>
       </div>
