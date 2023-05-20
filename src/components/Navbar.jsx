@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-[100px] max-w-[1240px] mx-auto px-4 text-lg text-[#404040]">
       <p className="w-full text-2xl font-bold m-4 cursor-pointer">
-        <Link to="home">JPVA.</Link>
+        <a href="/">JPVA.</a>
       </p>
       <ul className="hidden md:flex">
         <li className="hidden p-4 hover:scale-110 duration-200 hover:text-[#E1C340]">
