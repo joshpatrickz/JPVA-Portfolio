@@ -10,7 +10,7 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <div className="scrollbar-thin scrollbar-thumb-[#4CD7D0] scrollbar-track-slate-200">
+    <div className="scrollbar-thin scrollbar-thumb-[#4CD7D0] scrollbar-track-slate-200 bg-slate-300">
       <Navbar />
       <Hero />
       <About />
