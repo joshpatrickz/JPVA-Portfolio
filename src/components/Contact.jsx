@@ -13,7 +13,7 @@ const Contact = () => {
           Feel free to Contact me by submitting the form below and I will get
           back to you as soon as possible
         </p>
-        <div className="text-left p-10 border rounded-xl shadow-xl hover:shadow-2xl duration-1000 flex flex-col bg-white">
+        <div className="mx-5 text-left p-10 border rounded-xl shadow-xl hover:shadow-2xl duration-1000 flex flex-col bg-white">
           <p className="text-lg">Name</p>
           <input
             className="text-sm hover:shadow-md duration-1000 bg-gray-100 p-3 border rounded-md mb-3"

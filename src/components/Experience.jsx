@@ -15,23 +15,22 @@ const Experience = () => {
             <div className="text-left text-[15px]">
               May 3, 2018 to August 31, 2022
             </div>
-            <div className="text-left text-[14px]">
-              <p className="leading-normal">
-                • Assist the Management Information System(MIS) unit in the
-                maintenance of ICT Infrastructures.
-                <br />
-                • Perform Inventory of ICT structures.
-                <br />
-                • Provide technical supports to MWSS RO events.
-                <br />
-                • Perform such other general services functions as may be
-                required.
-                <br />
-                • Perform Network Troubleshooting.
-                <br />
-                • Perform Website update and posting.
-                <br />• Computer Hardware and Software Troubleshooting.
-              </p>
+            <div className="text-[14px]">
+              <ul className="text-left list-disc flex flex-col px-5 leading-normal">
+                <li className="list-disc">
+                  Assist the Management Information System(MIS) unit in the
+                  maintenance of ICT Infrastructures.
+                </li>
+                <li>Perform Inventory of ICT structures.</li>
+                <li>Provide technical supports to MWSS RO events.</li>
+                <li>
+                  Perform such other general services functions as may be
+                  required.
+                </li>
+                <li>Perform Network Troubleshooting.</li>
+                <li>Perform Website update and posting.</li>
+                <li>Computer Hardware and Software Troubleshooting.</li>
+              </ul>
             </div>
           </div>
           <div className="text-2xl border rounded-xl shadow-md hover:shadow-2xl duration-1000 py-10 px-10 bg-white">

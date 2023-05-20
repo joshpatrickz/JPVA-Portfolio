@@ -6,7 +6,7 @@ const projectData = [
       title: "JPVA Portfolio",
       imgUrl: `${JPVAPortfolio}`,
       stack: ["React", "Tailwind CSS", "JavaScript"],
-      link: "https://www.linkedin.com/in/joshua-patrick-aquino/",
+      link: "https://github.com/joshpatrickz/jpva.github.io/",
     },
     {
       title: "Project 2",
