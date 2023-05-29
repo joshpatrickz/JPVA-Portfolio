@@ -1,5 +1,6 @@
 import JPVAPortfolio from '../assets/portfolio-screenshot.png'
 import ProjectImg from '../assets/ProjectImg.jpg'
+import PortfolioTemplate from "../assets/portfoliotemplate.png"
 
 const projectData = [
     {
@@ -9,8 +10,8 @@ const projectData = [
       link: "https://github.com/joshpatrickz/jpva.github.io/",
     },
     {
-      title: "Project 2",
-      imgUrl: `${ProjectImg}`,
+      title: "Website Portfolio Template for sale",
+      imgUrl: `${PortfolioTemplate}`,
       stack: ["HTML", "CSS", "JavaScript"],
       link: "#",
     },
