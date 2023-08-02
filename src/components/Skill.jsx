@@ -25,6 +25,7 @@ const Skill = () => {
             </h2>
             <p>Computer Hardware Troubleshooting</p>
             <p>Computer Software Troubleshooting</p>
+            <p>Active Directory Management User</p>
             <p>Technical Support</p>
             <p>Network Troubleshooting</p>
             <p>Network Administration</p>
