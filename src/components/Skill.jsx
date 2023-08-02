@@ -23,13 +23,11 @@ const Skill = () => {
             <h2 className="text-[#E1C340] font-bold">
               My Information Technology Skill:
             </h2>
-            <p>Computer Hardware Troubleshooting</p>
-            <p>Computer Software Troubleshooting</p>
-            <p>Active Directory Management User</p>
-            <p>Technical Support</p>
-            <p>Network Troubleshooting</p>
-            <p>Network Administration</p>
-            <p></p>
+            <p>IT Infrastructure</p>
+            <p>System Installation, Configuration & Upgrading</p>
+            <p>Active Directory Administration</p>
+            <p>Hardware & Software Troubleshooting</p>
+            <p>LAN/WAN/Wireless Administration</p>
           </div>
         </div>
         <div className="w-96 mx-auto text-center border-0 shadow-lg hover:shadow-2xl duration-1000 rounded-xl px-10 py-10 mb-5 text-[#404040] bg-white">
