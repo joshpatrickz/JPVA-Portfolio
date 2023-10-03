@@ -25,7 +25,6 @@ const Skill = () => {
             </h2>
             <p>IT Infrastructure</p>
             <p>System Installation, Configuration & Upgrading</p>
-            <p>Active Directory Administration</p>
             <p>Hardware & Software Troubleshooting</p>
             <p>LAN/WAN/Wireless Administration</p>
           </div>
