@@ -18,12 +18,12 @@ const Hero = () => {
           <img
             className="md:w-[200px] sm:w-[150px] w-[130px] mt-10 rounded-full "
             src={Josh}
-            alt="/"
+            alt="Joshua Patrick Aquino"
           />
         </div>
       </div>
       <div className="flex justify-center w-screen bg-white">
-          <img className="md:w-[800px] sm:w-[600px] w-[400px] mt-8" src={JPVAHardware} alt="/" />
+          <img className="md:w-[800px] sm:w-[600px] w-[400px] mt-8" src={JPVAHardware} alt="JPVA Hardware logo" />
         </div>
     </div>
   );

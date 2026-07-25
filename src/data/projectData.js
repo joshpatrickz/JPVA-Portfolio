@@ -19,25 +19,25 @@ const projectData = [
     title: "Project 3",
     imgUrl: `${ProjectImg}`,
     stack: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    link: "",
   },
   {
     title: "Project 4",
     imgUrl: `${ProjectImg}`,
     stack: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    link: "",
   },
   {
     title: "Project 5",
     imgUrl: `${ProjectImg}`,
     stack: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    link: "",
   },
   {
     title: "Project 6",
     imgUrl: `${ProjectImg}`,
     stack: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    link: "",
   },
 ];
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="absolute w-full flex justify-center mt-20">
+    <div name="contact" className="w-full flex justify-center mt-20">
       <form
         method="POST"
         action="https://getform.io/f/6e136da9-89d7-4ab2-8bf3-7dafa3aea345"
@@ -20,6 +20,7 @@ const Contact = () => {
             type="text"
             placeholder="Enter Your Name"
             name="name"
+            required
           />
           <p className="text-lg">Email</p>
           <input
@@ -27,6 +28,7 @@ const Contact = () => {
             type="email"
             placeholder="Enter Your Email"
             name="email"
+            required
           />
           <p className="text-lg">Message</p>
           <textarea
@@ -35,6 +37,7 @@ const Contact = () => {
             placeholder="Enter Your Message"
             cols="30"
             rows="10"
+            required
           />
           <button className="text-lg px-6 py-2 mt-5 mx-auto flex rounded-md hover:shadow-lg hover:text-white hover:bg-[#4CD7D0] bg-[#A4E8E0] duration-500">
             Submit

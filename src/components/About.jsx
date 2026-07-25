@@ -3,8 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div
+      name="about"
       id="About"
-      className="absolute w-full h-[500px] flex flex-col bg-[#E1C340] shadow-xl"
+      className="w-full h-[500px] flex flex-col bg-[#E1C340] shadow-xl"
     >
       <div className="md:max-w-[1000px] sm:max-w-[600px] max-w-[400px] md:mt-20 sm:mt-14 mt-10 mb-10 mx-auto text-center justify-center">
         <h1 className="md:text-4xl sm:text-2xl text-xl font-bold text-white py-4">

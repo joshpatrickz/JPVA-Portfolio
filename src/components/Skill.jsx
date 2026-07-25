@@ -4,7 +4,7 @@ import DevLogo from "../assets/dev-logo.png";
 
 const Skill = () => {
   return (
-    <div className="relative w-full h-auto mt-[400px]">
+    <div name="skills" className="relative w-full h-auto mt-20">
       <div className="max-w-[800px] mx-auto grid md:grid-cols-2">
         <div className="w-96 mx-auto text-center border-0 shadow-lg hover:shadow-2xl duration-1000 rounded-xl px-10 py-10 mb-5 text-[#404040] bg-white">
           <div className="w-[60px] mx-auto mb-5">

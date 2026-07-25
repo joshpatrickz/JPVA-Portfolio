@@ -9,14 +9,20 @@ const Navbar = () => {
         <a href="/">JPVA.</a>
       </p>
       <ul className="hidden md:flex">
-        <li className="hidden p-4 hover:scale-110 duration-200 hover:text-[#E1C340]">
-          Home
+        <li className="p-4 hover:scale-110 duration-200 hover:text-[#E1C340] cursor-pointer">
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
-        <li className="hidden p-4 hover:scale-110 duration-200 hover:text-[#E1C340]">
-          About
+        <li className="p-4 hover:scale-110 duration-200 hover:text-[#E1C340] cursor-pointer">
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
-        <li className="hidden p-4 hover:scale-110 duration-200 hover:text-[#E1C340]">
-          Skills
+        <li className="p-4 hover:scale-110 duration-200 hover:text-[#E1C340] cursor-pointer">
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
         </li>
         <li className="p-4 hover:scale-100 duration-200 hover:text-[#4CD7D0] cursor-pointer">
           <Link to="portfolio" smooth={true} duration={500}>
