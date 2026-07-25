@@ -4,7 +4,7 @@ import CV from "../assets/aquino-cv.pdf";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center h-[100px] max-w-[1240px] mx-auto px-4 text-lg text-[#404040]">
+    <div className="flex justify-between items-center h-[100px] max-w-[1920px] mx-auto px-4 text-lg text-[#404040]">
       <p className="w-full text-2xl font-bold m-4 cursor-pointer">
         <a href="/">JPVA.</a>
       </p>
