@@ -6,37 +6,50 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="border-0 shadow-md hover:shadow-2xl duration-1000 border-[#404040] rounded-xl overflow-hidden block"
+      className="group block rounded-2xl overflow-hidden bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:shadow-xl hover:shadow-accent/5 dark:hover:shadow-accent/10 transition-all duration-500"
     >
-      <img
-        src={imgUrl}
-        alt={title}
-        className="w-full rounded-xl hover:shadow-sm p-1 h-52 md:h-48 object-cover cursor-pointer"
-      />
-      <div className="w-full p-4">
-        <h3 className="text-xl md:text-xl mb-2 md:mb-3">{title}</h3>
-        <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
-          {stack.map((item, index) => (
+      {/* Image container */}
+      <div className="relative overflow-hidden aspect-video">
+        <img
+          src={imgUrl}
+          alt={title}
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+        />
+        {/* Overlay on hover */}
+        <div className="absolute inset-0 bg-accent/0 group-hover:bg-accent/10 transition-all duration-500" />
+      </div>
+
+      {/* Content */}
+      <div className="p-5">
+        <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-3 group-hover:text-accent transition-colors">
+          {title}
+        </h3>
+        <div className="flex flex-wrap gap-2">
+          {stack.map((item, i) => (
             <span
-              key={index}
-              className="inline-block px-2 py-1 font-semibold border rounded-md shadow-inner border-[#e4e4e4]"
+              key={i}
+              className="px-2.5 py-1 text-xs font-medium rounded-md bg-accent/10 dark:bg-accent/20 text-accent dark:text-accent"
             >
               {item}
             </span>
           ))}
-        </p>
+        </div>
       </div>
     </a>
   ) : (
-    <div className="border-0 shadow-md hover:shadow-2xl duration-1000 border-[#404040] rounded-xl overflow-hidden opacity-70">
-      <img
-        src={imgUrl}
-        alt={title}
-        className="w-full rounded-xl hover:shadow-sm p-1 h-52 md:h-48 object-cover"
-      />
-      <div className="w-full p-4">
-        <h3 className="text-xl md:text-xl mb-2 md:mb-3">{title}</h3>
-        <p className="text-xs text-gray-400 italic">Coming Soon</p>
+    <div className="rounded-2xl overflow-hidden bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 opacity-60">
+      <div className="aspect-video overflow-hidden">
+        <img
+          src={imgUrl}
+          alt={title}
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="p-5">
+        <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-2">
+          {title}
+        </h3>
+        <p className="text-xs text-slate-400 italic">Coming Soon</p>
       </div>
     </div>
   );

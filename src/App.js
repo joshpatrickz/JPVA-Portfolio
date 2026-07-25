@@ -1,16 +1,16 @@
 import React from "react";
-import Navbar from "./components/Navbar.jsx";
-import Hero from "./components/Hero.jsx";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Skill from "./components/Skill";
-import Portfolio from "./components/Portfolio.jsx";
-import Experience from "./components/Experience.jsx";
-import Contact from "./components/Contact.jsx";
-import Footer from "./components/Footer.jsx";
+import Portfolio from "./components/Portfolio";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="scrollbar-thin scrollbar-thumb-[#4CD7D0] scrollbar-track-slate-200">
+    <div className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100 transition-colors duration-300 overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

@@ -2,7 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #ffffff;
-  font-family: "Poppins", sans-serif;
+@layer base {
+  body {
+    @apply font-sans transition-colors duration-300;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    @apply bg-accent/30;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 dark:bg-slate-800;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-accent/60 rounded-full hover:bg-accent;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-accent via-blue-500 to-purple-600 bg-clip-text text-transparent;
+}
+
+/* Glass card */
+.glass {
+  @apply bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl border border-white/20 dark:border-slate-700/30;
+}
+
+/* Section transition */
+.section-hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease-out;
+}
+.section-show {
+  opacity: 1;
+  transform: translateY(0);
 }
